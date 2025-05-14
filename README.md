@@ -12,19 +12,6 @@ This project investigates media bias in news articles using advanced **Knowledge
 - Query and analyze articles to study linguistic framing, factual consistency, and entity-level relationships.
 - Evaluate output using **RAGAS metrics** (Relevancy, Faithfulness, Precision, Recall).
 
----
-
-## 🗂️ Project Structure
-
-GraphRAG_MediaBias/
-│
-├── Article_Scraping.ipynb # Scrapes articles and stores metadata
-├── final_normalized_articles.csv # Final cleaned dataset with NER normalization
-├── KG_neo4j.ipynb # Creates knowledge graph in Neo4j from NER
-├── Table_Results.pdf # Evaluation results for RAG vs GraphRAG
-├── Report.pdf # Formal project report
-├── README.md # Project overview and documentation
-└── .gitignore # Optional - for ignoring local files
 
 
 ---
